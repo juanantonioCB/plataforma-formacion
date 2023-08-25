@@ -1,0 +1,111 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    @apply font-sans;
+}
+
+.top-bar {
+    @apply bg-white text-xs text-gris2;
+}
+
+.menu-superior li {
+    @apply inline-block pt-3;
+}
+
+.menu-superior li a {
+    @apply px-5;
+}
+
+.menu-superior li a:hover, .menu-superior li button:hover {
+    @apply text-p_p_rojo;
+}
+
+.menu li {
+    @apply inline-block pt-5;
+}
+
+.menu li a {
+    @apply px-3 text-sm xl:text-base;
+}
+
+.menu-superior li a:hover {
+    
+}
+
+.button-slider {
+    @apply px-8 xl:px-12 py-3 xl:py-4 text-lg xl:text-xl bg-p_s_marron text-white hover:bg-gris3 duration-300;
+}
+
+.button-inscribete {
+    @apply px-8 xl:px-12 py-3 xl:py-4 text-lg xl:text-xl bg-p_s_azul text-white hover:bg-gris3 duration-300;
+}
+
+.button-iralcurso {
+    @apply px-8 xl:px-12 py-3 xl:py-4 text-lg xl:text-xl bg-p_s_verde text-white hover:bg-gris3 duration-300;
+}
+
+.button-iralforo {
+    @apply ml-5 px-8 xl:px-12 py-3 xl:py-4 text-lg xl:text-xl bg-p_s_azul text-white hover:bg-gris3 duration-300;
+}
+
+.button-terminado {
+    @apply px-8 xl:px-12 py-3 xl:py-4 text-lg xl:text-xl bg-p_s_marron text-white duration-300 cursor-default;
+}
+
+.button-barra {
+    @apply w-16 h-16 bg-white text-p_p_rojo hover:bg-p_p_rojo hover:text-white duration-300;
+}
+
+.titulo {
+    @apply text-p_p_rojo text-2xl font-bold px-5 md:px-0;
+}
+
+.tabs {
+    @apply  flex flex-col md:flex-row flex-wrap list-none border-b-0 mb-4 mt-4;
+}
+
+.tabs li a {
+    @apply block font-bold text-2xl leading-tight pr-6 md:py-3 my-2 text-gris3;
+}
+
+.nav-tabs .nav-link.active {
+    @apply text-p_p_rojo;
+ }
+
+.button-tag-encurso {
+    @apply inline-block px-4 py-1.5 bg-p_s_verde text-white font-semibold text-xs leading-tight uppercase rounded shadow-md cursor-default !important;
+}
+
+.button-tag-terminado {
+    @apply inline-block px-4 py-1.5 bg-p_s_marron text-white font-semibold text-xs leading-tight uppercase rounded shadow-md cursor-default !important;
+}
+
+.button-modal-1 {
+    @apply px-8 py-2 text-base bg-p_p_rojo text-white hover:bg-gris3 duration-300 uppercase !important;
+}
+
+.button-modal-2 {
+    @apply px-8 py-2 text-base bg-gris3 text-white hover:bg-gris2 duration-300 uppercase !important;
+}
+
+.input {
+    @apply block w-full px-3 py-1.5 text-base font-normal text-p_p_gris_oscuro bg-white bg-clip-padding border border-solid border-gris transition ease-in-out m-0 focus:text-gris3 focus:bg-white focus:border-gris3 focus:outline-none !important;
+}
+
+.svg {
+    @apply text-gris5 hover:text-gris3 duration-300 !important;
+}
+
+.contenedor-logos {
+    @apply px-14 md:px-32 lg:px-24 xl:px-12;
+}
+
+.enlaceInferior {
+    @apply text-white;
+}
+
+.description h2 {
+    @apply text-p_s_marron text-lg font-bold !important;
+}
